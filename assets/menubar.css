@@ -1,0 +1,48 @@
+#skyline-menu-container {
+    background-color: rgb(0, 0, 0);
+    padding: 5px; /* Adjust the top and bottom padding */
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#skyline-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px; /* Adjust the overall height */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px; /* Adjust the margin to space out the entries */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px; /* Adjust the font size */
+    padding: 5px; /* Adjust the top and bottom padding */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    #skyline-menu {
+        flex-direction: column; /* Stack menu items vertically on small screens */
+        align-items: stretch;
+    }
+
+    nav li {
+        margin: 5px 0; /* Adjust margin for stacked items */
+    }
+}
