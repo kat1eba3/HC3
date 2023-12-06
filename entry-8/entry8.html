@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/assets/entry8.css">
+  <link rel="stylesheet" href="/assets/menubar.css">
+
+</head>
+<body style="margin: 0; overflow: hidden;">
+
+  <div id="skyline-menu-container">
+    <div id="skyline-menu">
+        <nav>
+            <ul>
+                <li><a href="/entry-1/entry1.html">Entry 1</a></li>
+                <li><a href="/entry-2/entrytwo.html">Entry 2</a></li>
+                <li><a href="/entry-3/entrythree.html">Entry 3</a></li>
+                <li><a href="/entry-4/entryfour.html">Entry 4</a></li>
+                <li><a href="/entry-5/entryfive.html">Entry 5</a></li>
+                <li><a href="/entry-6/entrysix.html">Entry 6</a></li>
+                <li><a href="/entry-7/entryseven.html">Entry 7</a></li>
+                <li><a href="/entry-8/entryeight.html">Entry 8</a></li>
+                <li><a href="/entry-9/entrynine.html">Entry 9</a></li>
+                <li><a href="/entry-10/entryten.html">Entry 10</a></li>
+            </ul>
+        </nav>
+    </div>
+
+  <div id="yourElement">
+    <!-- Background image with Spotify phone -->
+    <img src="/entry-8/images-e8/music2.png" alt="Music Background" id="backgroundImage" usemap="#spotifyMap">
+
+    <!-- Define the image map for clickable areas -->
+    <map name="spotifyMap">
+      <area id="playButtonArea" shape="rect" coords="1475,852,1522,815" alt="Play Button Area">
+    </map>
+
+    <!-- Button to start the music -->
+    <button id="startMusicButton" style="position: absolute; top: 635px; left: 1145px;"></button>
+  </div>
+
+  <audio id="backgroundNoise" loop>
+    <source src="/mp3/noise.mp3" type="audio/mp3"> <!-- Adjust the path to your background noise -->
+    Your browser does not support the audio tag.
+  </audio>
+
+  <!-- Audio element for the song -->
+  <audio id="song" loop>
+    <source src="/mp3/mhill.mp3" type="audio/mp3"> <!-- Adjust the path to your song -->
+    Your browser does not support the audio tag.
+  </audio>
+
+  <script src="/entry-8/entry8.js"></script>
+
+
+
+</body>
+</html>

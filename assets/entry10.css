@@ -1,0 +1,88 @@
+/* entry14.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Background image with parallax effect */
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/entry-10/images-e10/tumblr_mnrbz0b9WU1rsyukao1_500.gif') center/cover fixed;
+    z-index: -1; /* Move the background behind other elements */
+}
+
+/* entry6.css */
+
+.entry-six-section {
+    position: relative; /* Make the container position relative */
+}
+
+.goto-entry-button {
+    position: absolute; /* Position the button absolutely within the container */
+    top: 10%; /* Adjust the top position as needed */
+    left: 90%; /* Adjust the left position as needed */
+    transform: translate(-50%, -50%); /* Center the button */
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1; /* Ensure the button is on top */
+}
+
+.goto-entry-button:hover {
+    background-color: #000000;
+}
+
+
+/* Person with horizontal motion */
+.moving-person {
+    position: absolute;
+    width: 150px; /* Adjust the width as needed */
+    height: 225px; /* Adjust the height as needed */
+    background: url('/entry-10/images-e10/Untitled_Artwork\ 15.png') center/cover;
+    bottom: 50px; /* Adjust the vertical position as needed */
+    animation: moveHorizontal 8s linear infinite; /* Adjust the animation duration */
+}
+
+@keyframes moveHorizontal {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(900%); /* Ensure the person slides all the way to the end */
+    }
+}
+
+/* Additional styling or adjustments as needed */
+
+/* menubar.css */
+
+/* Add this style to make the link look like a button */
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .moving-person {
+      width: 100%; /* Adjust the width as needed for smaller screens */
+      height: auto;
+      animation: none; /* Remove animation on smaller screens if not needed */
+    }
+}
