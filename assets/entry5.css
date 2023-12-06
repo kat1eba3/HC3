@@ -1,0 +1,36 @@
+/* Common styles for both large and small screens */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .carousel-container {
+    width: 80%; /* Adjust the width for responsiveness */
+    max-width: 600px; /* Add a maximum width for larger screens */
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .carousel-container {
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,47 @@
+/* Common styles for both large and small screens */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Custom styles for arranging the layout */
+  section {
+    position: relative;
+    height: 100vh;
+  }
+  
+  /* Style for the images */
+  section img {
+    position: absolute;
+    max-width: 20%; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  /* Style for the button */
+  section button {
+    position: absolute;
+    z-index: 2; /* Ensure the button is above the signs */
+    background-color: #ff4747;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Additional styling to scatter the images */
+  section img {
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    section img {
+      max-width: 40%; /* Adjust the width for smaller screens */
+    }
+  
+    section button {
+      padding: 8px; /* Adjust the button padding for smaller screens */
+    }
+  }
+  
