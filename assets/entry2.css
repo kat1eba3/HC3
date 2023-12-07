@@ -52,16 +52,14 @@ body, html {
     height: 0;
 }
 
-/* Media Queries for responsiveness */
 @media only screen and (max-width: 768px) {
     #cutout {
-        width: 80%; /* Adjust the width for smaller screens */
-        height: auto; /* Allow height to adjust proportionally */
+        width: 70%; /* Adjust the width for smaller screens */
     }
 }
 
 @media only screen and (max-width: 480px) {
     #cutout {
-        width: 90%; /* Further adjust the width for even smaller screens */
+        width: 80%; /* Further adjust the width for even smaller screens */
     }
 }

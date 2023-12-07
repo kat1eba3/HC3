@@ -25,7 +25,7 @@ body {
   }
   
   .container-wrapper {
-    position: relative;
+    position: absolute;
   }
   
   .airpods-container {
@@ -78,21 +78,16 @@ body {
   
   #playAllButton {
     position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    right: 60px; /* Adjust the right position as needed */
-    padding: 10px 20px;
+    top: 635px; /* Adjust the top position as needed */
+    right: 1145ppx; /* Adjust the right position as needed */
+    padding: 30px 30px;
     font-size: 16px;
-    background-color: #000000;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    color: rgb(255, 0, 0);
     cursor: pointer;
     z-index: 2;
   }
-  
-  #playAllButton:hover {
-    background-color: #45a049;
-  }
+
+
   
   .goto-entry-button {
     position: absolute; /* Position the button absolutely within the container */
