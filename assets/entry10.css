@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/entry-10/images-e10/tumblr_mnrbz0b9WU1rsyukao1_500.gif') center/cover fixed;
+    background: url('/entry10/images-e10/tumblr_mnrbz0b9WU1rsyukao1_500.gif') center/cover fixed;
     z-index: -1; /* Move the background behind other elements */
 }
 
@@ -58,7 +58,7 @@ body {
     position: absolute;
     width: 150px; /* Adjust the width as needed */
     height: 225px; /* Adjust the height as needed */
-    background: url('/entry-10/images-e10/Untitled_Artwork\ 15.png') center/cover;
+    background: url('/entry10/images-e10/Untitled_Artwork\ 15.png') center/cover;
     bottom: 50px; /* Adjust the vertical position as needed */
     animation: moveHorizontal 8s linear infinite; /* Adjust the animation duration */
 }
