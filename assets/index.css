@@ -1,0 +1,48 @@
+#skyline-menu-container {
+    background-color: #333;
+    height: 45px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('/index/images-idx/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#skyline-menu-container {
+    position: relative;
+    z-index: 2;
+}
+
+#skyline-menu {
+    /* Add your menu styles here */
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 200px; /* Adjust the top position as needed */
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-size: 50vw 50vh;
+    }
+}
