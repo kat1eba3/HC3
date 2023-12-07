@@ -1,5 +1,3 @@
-x
-
 /* Card container styles */
 body {
     display: flex;
@@ -13,9 +11,9 @@ body {
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust for responsiveness */
-    gap: 20px;
+    gap: 20px; /* Adjust for both horizontal and vertical gaps */
     justify-content: center;
-    align-items: center;
+    align-items: center; /* Center cards vertically */
     margin-top: 50px; /* Adjust the margin as needed */
 }
 
@@ -24,6 +22,11 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
+/* ... rest of your styles ... */
+
+
 .card {
     height: 450px;
     width: 300px;
